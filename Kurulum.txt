@@ -1,0 +1,10 @@
+Postgresql veritabanı kurulacak
+inventory isimli bir db oluşturduktan sonra kullanıcı adı-şifre bilgilerini backend projesindeki  application.propertıes içerisine yazılacak
+
+Tomcat kurulumu yapılması gerekmektedir.
+Spring boot projesinin icine girilerek, mvn package komutu ile war dosyası çıkarılacak
+Oluşan war dosyası tomcat’n kurulmuş olduğu dizinin içerisindeki webapps dosyasının içerisine kopyalanacak.
+
+Önyüz projesi için node js ve npm paketleri kurulacak
+Önyüz projesinin içerisine girilerek sırasıyla npm install, npm i -g react-scripts ve rpm start komutları kullanılarak proje ayağa kaldırılacak.
+önyüz kısmında eksiklerim olduğu için isterseniz postman  gibi bir API aracıyla requestelerin çalıştıgını kontrol edebilirsiniz..
